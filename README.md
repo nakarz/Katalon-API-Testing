@@ -54,6 +54,6 @@ https://jsonplaceholder.typicode.com/todos
 }
 ```
 4. Melakukan method DELETE untuk Id 1:
-..
+```
 https://jsonplaceholder.typicode.com/todos/1
 ```
