@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02_GET-POST-DELETE-ToDos,,,,2023-08-14 16:02:23,2023-08-14 16:02:30,7.016s,PASSED
+,,,,,,,
+Test Cases/REST_API_ToDos/GET/TC01_GET-All-ToDos,,,,2023-08-14 16:02:24,2023-08-14 16:02:28,4.494s,PASSED
+"response = sendRequest(findTestObject(""REST_API/2_ToDos/GET/GET-All-ToDos""))",,,,2023-08-14 16:02:24,2023-08-14 16:02:27,2.843s,PASSED
+"verifyElementPropertyValue(response, ""[0].userId"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.083s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[0].title"", ""delectus aut autem"")",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[0].completed"", false)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[1].userId"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[1].id"", 2)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[1].title"", ""quis ut nam facilis et officia qui"")",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[1].completed"", false)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[2].userId"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[2].id"", 3)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[2].title"", ""fugiat veniam minus"")",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[2].completed"", false)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.023s,PASSED
+"verifyElementPropertyValue(response, ""[3].userId"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[3].id"", 4)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[3].title"", ""et porro tempora"")",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[3].completed"", true)",,,,2023-08-14 16:02:27,2023-08-14 16:02:27,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[4].userId"", 1)",,,,2023-08-14 16:02:27,2023-08-14 16:02:28,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[4].id"", 5)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.031s,PASSED
+"verifyElementPropertyValue(response, ""[4].title"", ""laboriosam mollitia et enim quasi adipisci quia provident illum"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[4].completed"", false)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[5].userId"", 1)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[5].id"", 6)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[5].title"", ""qui ullam ratione quibusdam voluptatem quia omnis"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[5].completed"", false)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[6].userId"", 1)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[6].id"", 7)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.038s,PASSED
+"verifyElementPropertyValue(response, ""[6].title"", ""illo expedita consequatur quia in"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[6].completed"", false)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[7].userId"", 1)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[7].id"", 8)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[7].title"", ""quo adipisci enim quam ut ab"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.020s,PASSED
+"verifyElementPropertyValue(response, ""[7].completed"", true)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.020s,PASSED
+"verifyElementPropertyValue(response, ""[8].userId"", 1)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[8].id"", 9)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[8].title"", ""molestiae perspiciatis ipsa"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[8].completed"", false)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[9].userId"", 1)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[9].id"", 10)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[9].title"", ""illo est ratione doloremque quia maiores aut"")",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[9].completed"", true)",,,,2023-08-14 16:02:28,2023-08-14 16:02:28,0.025s,PASSED
+,,,,,,,
+Test Cases/REST_API_ToDos/POST/TC12_POST-ToDos,,,,2023-08-14 16:02:28,2023-08-14 16:02:29,1.114s,PASSED
+"response = sendRequest(findTestObject(""REST_API/2_ToDos/POST/POST-ToDos-User1""))",,,,2023-08-14 16:02:28,2023-08-14 16:02:29,0.743s,PASSED
+"verifyElementPropertyValue(response, ""userId"", 1)",,,,2023-08-14 16:02:29,2023-08-14 16:02:29,0.021s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""new todo post for user1"")",,,,2023-08-14 16:02:29,2023-08-14 16:02:29,0.020s,PASSED
+"verifyElementPropertyValue(response, ""completed"", true)",,,,2023-08-14 16:02:29,2023-08-14 16:02:29,0.023s,PASSED
+,,,,,,,
+Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos,,,,2023-08-14 16:02:29,2023-08-14 16:02:30,1.019s,PASSED
+"sendRequest(findTestObject(""REST_API/2_ToDos/DELETE/DELETE-ToDos""))",,,,2023-08-14 16:02:30,2023-08-14 16:02:30,0.734s,PASSED
