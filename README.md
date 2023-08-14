@@ -9,7 +9,7 @@ Terdapat 2 _endpoints_, yaitu:
 ../todos
 ```
 ### Endpoint Albums
-1. Melakukan method GET untuk seluruh albums: 
+1. Melakukan method GET untuk seluruh Albums: 
 ```
 https://jsonplaceholder.typicode.com/albums
 ```
