@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_GET-Single-ToDos1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc11a771-02ef-4d5d-9445-da8fa1206ad1</testCaseGuid>
+</TestCaseEntity>

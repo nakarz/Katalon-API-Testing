@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_GET-All-Albums</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7493b5a-701b-4306-8324-07b04760f4fe</testCaseGuid>
+</TestCaseEntity>

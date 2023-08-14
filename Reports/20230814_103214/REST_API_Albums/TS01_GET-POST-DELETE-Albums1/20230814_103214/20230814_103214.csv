@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_GET-POST-DELETE-Albums1,,,,2023-08-14 10:32:26,2023-08-14 10:32:33,7.096s,FAILED
+,,,,,,,
+Test Cases/REST_API_Albums/TC02_GET-Single-Albums1,,,,2023-08-14 10:32:30,2023-08-14 10:32:31,0.220s,FAILED
+"response = sendRequest(findTestObject(""REST_API/1_Albums/GET/GET_Single_Entry/GET-Albums-1""))",,,,2023-08-14 10:32:30,2023-08-14 10:32:31,0.187s,PASSED
+"verifyElementPropertyValue(response, ""[0].userId"", 1)",,,,2023-08-14 10:32:31,2023-08-14 10:32:31,0.031s,FAILED
+,,,,,,,
+Test Cases/REST_API_Albums/TC03_POST-Albums,,,,2023-08-14 10:32:31,2023-08-14 10:32:32,1.102s,PASSED
+"response = sendRequest(findTestObject(""REST_API/1_Albums/POST/POST-Albums-User1""))",,,,2023-08-14 10:32:31,2023-08-14 10:32:32,0.723s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,2023-08-14 10:32:32,2023-08-14 10:32:32,0.012s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""new post for user1"")",,,,2023-08-14 10:32:32,2023-08-14 10:32:32,0.012s,PASSED
+,,,,,,,
+Test Cases/REST_API_Albums/TC04_DELETE-Albums,,,,2023-08-14 10:32:32,2023-08-14 10:32:33,0.945s,PASSED
+"sendRequest(findTestObject(""REST_API/1_Albums/DELETE/DELETE-Albums""))",,,,2023-08-14 10:32:32,2023-08-14 10:32:33,0.714s,PASSED
