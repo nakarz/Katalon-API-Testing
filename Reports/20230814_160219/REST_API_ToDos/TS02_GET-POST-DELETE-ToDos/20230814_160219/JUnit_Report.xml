@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02_GET-POST-DELETE-ToDos" time="7.016" tests="3" failures="0" errors="0">
+   <testsuite name="TS02_GET-POST-DELETE-ToDos" tests="3" failures="0" errors="0" time="7.016" skipped="0" timestamp="2023-08-14 16:02:23" hostname="Najwa - 10.5.91.39" id="Test Suites/REST_API_ToDos/TS02_GET-POST-DELETE-ToDos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\4 -- QA Automation\\Hacktiv8\\Assginment 2\\Repository\\Cloned\\Katalon-API-Testing\\Reports\\20230814_160219\\REST_API_ToDos\\TS02_GET-POST-DELETE-ToDos\\20230814_160219"/>
+         <property name="logFiles" value="D:\\4 -- QA Automation\\Hacktiv8\\Assginment 2\\Repository\\Cloned\\Katalon-API-Testing\\Reports\\20230814_160219\\REST_API_ToDos\\TS02_GET-POST-DELETE-ToDos\\20230814_160219\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Najwa - 10.5.91.39"/>
+         <property name="hostAddress" value="10.5.91.39"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API_ToDos/GET/TC01_GET-All-ToDos" time="4.494" classname="Test Cases/REST_API_ToDos/GET/TC01_GET-All-ToDos" status="PASSED">
+         <system-out><![CDATA[2023-08-14 16:02:24 - [TEST_CASE][PASSED] - Test Cases/REST_API_ToDos/GET/TC01_GET-All-ToDos: Test Cases/REST_API_ToDos/GET/TC01_GET-All-ToDos
+
+2023-08-14 16:02:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST_API/2_ToDos/GET/GET-All-ToDos")): Send request successfully
+
+2023-08-14 16:02:27 - [MESSAGE][INFO] - HAR: D:\4 -- QA Automation\Hacktiv8\Assginment 2\Repository\Cloned\Katalon-API-Testing\Reports\20230814_160219\REST_API_ToDos\TS02_GET-POST-DELETE-ToDos\20230814_160219\requests\main\0.har
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", 1): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].title", "delectus aut autem"): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].id", 2): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].title", "quis ut nam facilis et officia qui"): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].id", 3): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].title", "fugiat veniam minus"): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].id", 4): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].title", "et porro tempora"): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].completed", true): Verify element property value successfully
+
+2023-08-14 16:02:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].id", 5): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].title", "laboriosam mollitia et enim quasi adipisci quia provident illum"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].id", 6): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].title", "qui ullam ratione quibusdam voluptatem quia omnis"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].id", 7): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].title", "illo expedita consequatur quia in"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].id", 8): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].title", "quo adipisci enim quam ut ab"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].completed", true): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].id", 9): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].title", "molestiae perspiciatis ipsa"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].completed", false): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].id", 10): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].title", "illo est ratione doloremque quia maiores aut"): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].completed", true): Verify element property value successfully
+
+2023-08-14 16:02:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API_ToDos/POST/TC12_POST-ToDos" time="1.114" classname="Test Cases/REST_API_ToDos/POST/TC12_POST-ToDos" status="PASSED">
+         <system-out><![CDATA[2023-08-14 16:02:28 - [TEST_CASE][PASSED] - Test Cases/REST_API_ToDos/POST/TC12_POST-ToDos: Test Cases/REST_API_ToDos/POST/TC12_POST-ToDos
+
+2023-08-14 16:02:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST_API/2_ToDos/POST/POST-ToDos-User1")): Send request successfully
+
+2023-08-14 16:02:29 - [MESSAGE][INFO] - HAR: D:\4 -- QA Automation\Hacktiv8\Assginment 2\Repository\Cloned\Katalon-API-Testing\Reports\20230814_160219\REST_API_ToDos\TS02_GET-POST-DELETE-ToDos\20230814_160219\requests\main\1.har
+
+2023-08-14 16:02:29 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-14 16:02:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", 1): Verify element property value successfully
+
+2023-08-14 16:02:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "new todo post for user1"): Verify element property value successfully
+
+2023-08-14 16:02:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 16:02:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "completed", true): Verify element property value successfully
+
+2023-08-14 16:02:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos" time="1.019" classname="Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos" status="PASSED">
+         <system-out><![CDATA[2023-08-14 16:02:29 - [TEST_CASE][PASSED] - Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos: Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos
+
+2023-08-14 16:02:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REST_API/2_ToDos/DELETE/DELETE-ToDos")): Send request successfully
+
+2023-08-14 16:02:30 - [MESSAGE][INFO] - HAR: D:\4 -- QA Automation\Hacktiv8\Assginment 2\Repository\Cloned\Katalon-API-Testing\Reports\20230814_160219\REST_API_ToDos\TS02_GET-POST-DELETE-ToDos\20230814_160219\requests\main\2.har
+
+2023-08-14 16:02:30 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-14 16:02:23 - [TEST_SUITE][PASSED] - TS02_GET-POST-DELETE-ToDos: Test Cases/REST_API_ToDos/DELETE/TC13_DELETE-ToDos]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

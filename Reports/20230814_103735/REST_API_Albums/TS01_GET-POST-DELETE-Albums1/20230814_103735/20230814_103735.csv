@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_GET-POST-DELETE-Albums1,,,,2023-08-14 10:37:39,2023-08-14 10:37:48,8.832s,PASSED
+,,,,,,,
+Test Cases/REST_API_Albums/TC01_GET-All-Albums,,,,2023-08-14 10:37:39,2023-08-14 10:37:45,5.539s,PASSED
+"response = sendRequest(findTestObject(""REST_API/1_Albums/GET/GET-All-Albums""))",,,,2023-08-14 10:37:40,2023-08-14 10:37:44,3.550s,PASSED
+"verifyElementPropertyValue(response, ""[0].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.081s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.043s,PASSED
+"verifyElementPropertyValue(response, ""[0].title"", ""quidem molestiae enim"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[1].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.029s,PASSED
+"verifyElementPropertyValue(response, ""[1].id"", 2)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.040s,PASSED
+"verifyElementPropertyValue(response, ""[1].title"", ""sunt qui excepturi placeat culpa"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.031s,PASSED
+"verifyElementPropertyValue(response, ""[2].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[2].id"", 3)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[2].title"", ""omnis laborum odio"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[3].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[3].id"", 4)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.035s,PASSED
+"verifyElementPropertyValue(response, ""[3].title"", ""non esse culpa molestiae omnis sed optio"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.045s,PASSED
+"verifyElementPropertyValue(response, ""[4].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.051s,PASSED
+"verifyElementPropertyValue(response, ""[4].id"", 5)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.051s,PASSED
+"verifyElementPropertyValue(response, ""[4].title"", ""eaque aut omnis a"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.066s,PASSED
+"verifyElementPropertyValue(response, ""[5].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.076s,PASSED
+"verifyElementPropertyValue(response, ""[5].id"", 6)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.105s,PASSED
+"verifyElementPropertyValue(response, ""[5].title"", ""natus impedit quibusdam illo est"")",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.064s,PASSED
+"verifyElementPropertyValue(response, ""[6].userId"", 1)",,,,2023-08-14 10:37:44,2023-08-14 10:37:44,0.050s,PASSED
+"verifyElementPropertyValue(response, ""[6].id"", 7)",,,,2023-08-14 10:37:44,2023-08-14 10:37:45,0.067s,PASSED
+"verifyElementPropertyValue(response, ""[6].title"", ""quibusdam autem aliquid et et quia"")",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.072s,PASSED
+"verifyElementPropertyValue(response, ""[7].userId"", 1)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.045s,PASSED
+"verifyElementPropertyValue(response, ""[7].id"", 8)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[7].title"", ""qui fuga est a eum"")",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[8].userId"", 1)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.047s,PASSED
+"verifyElementPropertyValue(response, ""[8].id"", 9)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.039s,PASSED
+"verifyElementPropertyValue(response, ""[8].title"", ""saepe unde necessitatibus rem"")",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[9].userId"", 1)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.048s,PASSED
+"verifyElementPropertyValue(response, ""[9].id"", 10)",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.045s,PASSED
+"verifyElementPropertyValue(response, ""[9].title"", ""distinctio laborum qui"")",,,,2023-08-14 10:37:45,2023-08-14 10:37:45,0.037s,PASSED
+,,,,,,,
+Test Cases/REST_API_Albums/TC03_POST-Albums,,,,2023-08-14 10:37:45,2023-08-14 10:37:46,1.422s,PASSED
+"response = sendRequest(findTestObject(""REST_API/1_Albums/POST/POST-Albums-User1""))",,,,2023-08-14 10:37:46,2023-08-14 10:37:46,0.791s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,2023-08-14 10:37:46,2023-08-14 10:37:46,0.029s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""new post for user1"")",,,,2023-08-14 10:37:46,2023-08-14 10:37:46,0.036s,PASSED
+,,,,,,,
+Test Cases/REST_API_Albums/TC04_DELETE-Albums,,,,2023-08-14 10:37:46,2023-08-14 10:37:48,1.326s,PASSED
+"sendRequest(findTestObject(""REST_API/1_Albums/DELETE/DELETE-Albums""))",,,,2023-08-14 10:37:47,2023-08-14 10:37:48,0.805s,PASSED
