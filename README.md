@@ -29,7 +29,7 @@ https://jsonplaceholder.typicode.com/albums
 }
 ```
 4. Melakukan method DELETE untuk Id 1:
-..
+```
 https://jsonplaceholder.typicode.com/albums/1
 ```
 
