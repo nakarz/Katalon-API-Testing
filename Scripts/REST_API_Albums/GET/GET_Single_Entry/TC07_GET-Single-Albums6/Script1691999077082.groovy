@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('REST_API/1_Albums/POST/POST-Albums-User1'))
+def response = WS.sendRequest(findTestObject('REST_API/1_Albums/GET/GET_Single_Entry/GET-Albums-6'))
 
-WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'title', 'new post for user1')
+WS.verifyElementPropertyValue(response, 'userId', 1)
+WS.verifyElementPropertyValue(response, 'id', 6)
+WS.verifyElementPropertyValue(response, 'title', 'natus impedit quibusdam illo est')

@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('REST_API/1_Albums/GET/GET_Single_Entry/GET-Albums-1'))
-// 1
-WS.verifyElementPropertyValue(response, '[0].userId', 1)
-WS.verifyElementPropertyValue(response, '[0].id', 1)
-WS.verifyElementPropertyValue(response, '[0].title', 'quidem molestiae enim')
+def response = WS.sendRequest(findTestObject('REST_API/1_Albums/GET/GET_Single_Entry/GET-Albums-7'))
+
+WS.verifyElementPropertyValue(response, 'userId', 1)
+WS.verifyElementPropertyValue(response, 'id', 7)
+WS.verifyElementPropertyValue(response, 'title', 'quibusdam autem aliquid et et quia')

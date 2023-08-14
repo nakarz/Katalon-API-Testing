@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_DELETE-Albums</name>
+   <name>TC09_GET-Single-Albums8</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4e75b391-acef-4635-b705-8af68fd12ab3</testCaseGuid>
+   <testCaseGuid>3e1abc7a-4f52-4fa0-868c-58e73ce2c6dc</testCaseGuid>
 </TestCaseEntity>
