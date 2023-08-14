@@ -15,21 +15,21 @@
       <guid>92c7a661-05ef-4e74-b684-9b1e13cbadf2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API_Albums/TC01_GET-All-Albums</testCaseId>
+      <testCaseId>Test Cases/REST_API_Albums/GET/TC01_GET-All-Albums</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>439ca8e2-9acb-4056-9a45-d58b9a2fe41b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API_Albums/TC03_POST-Albums</testCaseId>
+      <testCaseId>Test Cases/REST_API_Albums/POST/TC12_POST-Albums</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>61da2476-7961-4374-b34f-693a879523c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API_Albums/TC04_DELETE-Albums</testCaseId>
+      <testCaseId>Test Cases/REST_API_Albums/DELETE/TC13_DELETE-Albums</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

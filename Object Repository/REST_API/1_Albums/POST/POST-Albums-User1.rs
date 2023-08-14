@@ -6,12 +6,12 @@
    <elementGuidId>0dc0923b-1ae9-4016-8ab2-b41cb3619562</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: 1,\n  \&quot;title\&quot;: \&quot;new post for user1\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: 1,\n  \&quot;title\&quot;: \&quot;new album post for user1\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -56,6 +56,6 @@ WS.verifyResponseStatusCode(response, 201)
 assertThat(response.getStatusCode()).isEqualTo(201)
 
 WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'title', 'new post for user1')</verificationScript>
+WS.verifyElementPropertyValue(response, 'title', 'new album post for user1')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
